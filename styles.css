@@ -18,7 +18,7 @@ h1 {
   margin: 30px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 5rem;
   color: #4ECCA3;
 }
 
@@ -31,11 +31,34 @@ p {
 img {
   width: 80%;
 }
+ 
+button{
+  position: absolute;
+  left: 200px;
+ 
+  background-color: #0db77f;
+  border-radius: 50%;
+ height: 5vh;
+  left: 600px;
+  
+}
 
 footer {
   margin-top: 5%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
+
+}
+
+@media  (max-width: 990px) {
+  h1{
+    font-size: 3rem;
+  }
+  button {
+    position: absolute;
+  left: 450px;
+  height: 2vh;
+  }
 
 }
